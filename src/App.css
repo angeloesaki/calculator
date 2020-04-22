@@ -1,0 +1,64 @@
+#root {
+  width:400px;
+  margin: 40px auto;
+}
+
+.result {
+  height: 90px;
+  background: yellow;
+}
+
+.resultValue {
+  text-align: end;
+  height: 100%;
+  font-size: 80px;
+  color: purple;
+  padding-right: 42px; 
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background: yellow;
+}
+
+button {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  margin-bottom: 15px;
+  background: purple;
+  border: none;
+  color: yellow;
+  font-size: 50px;
+  padding: 0px;
+}
+
+button:hover {
+  background: blue;
+}
+
+button:focus {
+  outline: none;
+}
+
+.operator button {
+  background: purple;
+}
+
+.operator button:hover{
+  background:blue;
+}
+
+.operator button:focus {
+  background: red;
+  color: yellow;
+}
+
+.operator {
+  display: flex;
+  flex-direction: column;
+}
+
+/* デザイン */
